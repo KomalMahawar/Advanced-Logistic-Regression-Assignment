@@ -30,14 +30,17 @@ We are required to model the price of houses with the available independent vari
 - We have built model and came to conclusion that Lasso provides the better model as compared to Ridge.
 - Below are the R2 score of all the models: 
 
-Metric	            Linear Regression	   Ridge Regression	    Lasso Regression
-0	R2 Score (Train)	7.989130e-01	       7.933674e-01	        7.975042e-01
-1	R2 Score (Test)	  8.006068e-01	       7.906959e-01	        7.951484e-01
-2	RSS (Train)	      1.283308e+12	       1.318700e+12	        1.292299e+12
-3	RSS (Test)	      5.634303e+11	       5.914360e+11	        5.788543e+11
-4	MSE (Train)	      3.545297e+04	       3.593851e+04	        3.557694e+04
-5	MSE (Test)	      3.582514e+04	       3.670469e+04	        3.631218e+04
+- Linear Regression	   
+-	R2 Score (Train) : 7.98       
+-	R2 Score (Test)  : 8.00   
 
+- Ridge Regression
+-	R2 Score (Train) : 7.93   
+-	R2 Score (Test)  : 7.90
+  
+- Lasso Regression 
+-	R2 Score (Train) : 7.97      
+-	R2 Score (Test)  : 7.95      
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
