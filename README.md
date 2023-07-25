@@ -1,5 +1,5 @@
 # Advanced Logistic Regression
-> A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price.For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file added to the repository.
+- A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price.For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file added to the repository.
 The company is looking at prospective properties to buy to enter the market. You are required to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
 The company wants to know:
 - Which variables are significant in predicting the price of a house, and
@@ -41,28 +41,37 @@ We are required to model the price of houses with the available independent vari
 - Lasso Regression 
 -	R2 Score (Train) : 7.97      
 -	R2 Score (Test)  : 7.95      
+The features which would vary the housing prices are ;
+OverallQual, 1stFlrSF, 2ndFlrSF, MSSubClass_90,	MSSubClass_120,	MSSubClass_160,	MSZoning_RL,	LotConfig_CulDSac,	Neighborhood_Crawfor,	Neighborhood_NoRidge , Neighborhood_NridgHt,	Neighborhood_Somerst,	Neighborhood_StoneBr,	Neighborhood_Veenker,	HouseStyle_2.5Unf,	Exterior1st_Stucco,	Exterior2nd_ImStucc,	Exterior2nd_VinylSd	 
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- Python 3
-- sklearn
-- matplotlib
-- scipy.stats
-- seaborn
-- statsmodels
+* IDE - Anaconda Jupyter Notebook and VS Code
+* language - python v3.9
+* library - pandas v1.4.4
+* library - numpy v1.21.5
+* library - matplotlib v3.5.2
+* library - seaborn v0.11.2
+* library - sklearn
+* library - statsmodel
+
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
 - This project was inspired by Upgrad 
-- Google,Data Science projects from Kaggle
-
+ * References:
+* https://stackoverflow.com/
+* https://www.kaggle.com/
+* https://www.google.com/
+* https://towardsdatascience.com/
 
 ## Contact
-Created by [@KomalMahawar] - feel free to contact me!
+Created by [https://github.com/KomalMahawar] - feel free to contact me!
 
 
 <!-- Optional -->
